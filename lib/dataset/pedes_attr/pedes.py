@@ -59,14 +59,6 @@ class PedesAttr(data.Dataset):
             self.root_path = os.path.join(root, 'images')
         elif self.dataset == "RAP":
             self.root_path = os.path.join(root, 'RAP_dataset')
-        elif self.dataset == "RAP_align":
-            self.root_path = os.path.join(root, 'RAP_dataset_align')
-        elif self.dataset == "PA100K_align":
-            self.root_path = os.path.join(root, 'data_align')
-        elif self.dataset == "PETA_misalign":
-            self.root_path = os.path.join(root, 'images')
-        elif self.dataset == "RAP2":
-            self.root_path = os.path.join(root, 'RAP_dataset')
         elif self.dataset == "PA100k":
             self.root_path = os.path.join(root, 'data')
 
